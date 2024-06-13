@@ -17,8 +17,8 @@ import com.example.crud_farmacia.model.Categoria;
 import com.example.crud_farmacia.service.CategoriaService;
 
 @RestController
-	@RequestMapping("/categorias")
-	public class CategoriaController {
+@RequestMapping("/categorias")
+public class CategoriaController {
 
 	    @Autowired
 	    private CategoriaService categoriaService;
